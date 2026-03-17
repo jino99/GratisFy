@@ -32,8 +32,8 @@ A sleek, cyber-noir inspired YouTube Music player built with React, Vite, and Ta
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd gratify_v2
+git clone https://github.com/jino99/gratisfy
+cd gratisfy
 ```
 
 2. Install dependencies:
@@ -59,7 +59,7 @@ npm run dev
 ## Project Structure
 
 ```
-gratify_v2/
+gratisfy/
 ├── src/
 │   ├── App.jsx          # Main application component
 │   ├── main.jsx         # Application entry point
