@@ -1,101 +1,123 @@
+
 # Gratisfy
 
-A sleek, cyber-noir inspired YouTube Music player built with React, Vite, and Tailwind CSS.
+![GitHub stars](https://img.shields.io/github/stars/jino99/gratisfy?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/jino99/gratisfy?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/jino99/gratisfy?style=for-the-badge)
+![GitHub license](https://img.shields.io/github/license/jino99/gratisfy?style=for-the-badge)
 
-## Features
+A sleek, **cyber-noir inspired YouTube Music player** built with **React, Vite, and Tailwind CSS**.
 
-- **🎵 YouTube Music Integration**: Stream and play music directly from YouTube
-- **🔍 Advanced Search**: Instant search with debouncing and comprehensive results
-- **📚 Library Management**: Save and organize your favorite tracks
-- **⏯️ Queue System**: Create and manage custom playlists
-- **🎨 Cyber-Noir UI**: Dark theme with purple accents and smooth animations
-- **📱 Responsive Design**: Works seamlessly on desktop and mobile
-- **🎛️ Advanced Controls**: Repeat, shuffle, volume, and seeking
-- **⚡ Performance Optimized**: Fast loading and smooth playback
+---
 
-## Tech Stack
+## 🚀 Features
+- 🎵 **YouTube Music Integration** – Stream and play music directly from YouTube
+- 🔍 **Advanced Search** – Instant search with debouncing + rich results
+- 📚 **Library Management** – Save & organize your favorite tracks
+- ⏯️ **Queue System** – Create and manage custom playlists
+- 🎨 **Cyber‑Noir UI** – Dark mode with purple aesthetics and smooth animations
+- 📱 **Responsive** – Works beautifully on mobile & desktop
+- 🎛️ **Advanced Controls** – Repeat, shuffle, volume, seeking
+- ⚡ **Performance Optimized** – Fast loading & smooth playback
 
-- **Frontend**: React 18, Vite, Tailwind CSS, Framer Motion
-- **Backend**: Node.js middleware with yt-search and yt-dlp
-- **State Management**: Zustand with persistence
-- **Audio**: HTML5 Audio API with Range requests support
-- **Icons**: Lucide React
+---
 
-## Getting Started
+## 🧰 Tech Stack
+### **Frontend**
+- React 18
+- Vite
+- Tailwind CSS
+- Framer Motion
 
-### Prerequisites
+### **Backend**
+- Node.js middleware
+- yt-search
+- yt-dlp
 
-- Node.js (v16 or higher)
+### **Other**
+- State management: Zustand (with persistence)
+- Audio: HTML5 Audio API + range requests
+- Icons: Lucide React
+
+---
+
+## 🛠️ Getting Started
+
+### **Prerequisites**
+- Node.js **v16+**
 - npm or yarn
 
-### Installation
-
-1. Clone the repository:
+### **Installation**
 ```bash
 git clone https://github.com/jino99/gratisfy
 cd gratisfy
-```
-
-2. Install dependencies:
-```bash
 npm install
 ```
 
-3. Start the development server:
+### **Run Development Server**
 ```bash
 npm run dev
 ```
+Open: **http://localhost:5173**
 
-4. Open your browser and navigate to `http://localhost:5173`
+---
 
-## Usage
+## 🎮 Usage
+- **Search Music** – Use the search bar to find YouTube Music tracks
+- **Play Tracks** – Click any result to start playback
+- **Save to Library** – Build your personal music collection
+- **Queue Tracks** – Create on-the-fly playlists
+- **Use Advanced Controls** – Shuffle, repeat, seek, adjust volume
 
-1. **Search Music**: Use the search bar to find tracks from YouTube Music
-2. **Play Tracks**: Click on any track to start playing
-3. **Manage Library**: Save your favorite tracks to your personal library
-4. **Create Queue**: Add tracks to queue for custom playlists
-5. **Advanced Controls**: Use repeat, shuffle, and seek controls
+---
 
-## Project Structure
-
+## 📁 Project Structure
 ```
 gratisfy/
 ├── src/
 │   ├── App.jsx          # Main application component
-│   ├── main.jsx         # Application entry point
+│   ├── main.jsx         # Entry point
 │   └── assets/          # Static assets
-├── public/              # Public assets (favicon, etc.)
+├── public/              # Public files
 ├── bin/                 # yt-dlp binary
-├── vite.config.js       # Vite configuration with custom middleware
-├── package.json         # Dependencies and scripts
+├── vite.config.js       # Vite config + middleware
+├── package.json         # Dependencies & scripts
 └── README.md            # This file
 ```
 
-## Configuration
+---
 
-The application uses yt-dlp for streaming audio from YouTube. The binary is included in the `bin/` directory for cross-platform compatibility.
+## 🔧 Configuration
+The app uses **yt-dlp** (bundled in `/bin/`) to stream high‑quality audio from YouTube.
 
-## API Endpoints
+---
 
-- `GET /api/ytm/search?q=<query>` - Search YouTube Music
-- `GET /api/ytm/stream?videoId=<id>` - Stream audio
+## 📡 API Endpoints
+```
+GET /api/ytm/search?q=<query>     # Search YouTube Music
+GET /api/ytm/stream?videoId=<id>  # Stream audio
+```
 
-## Contributing
+---
 
-1. Fork the repository
+## 🤝 Contributing
+1. Fork the repo
 2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+3. Commit your changes
+4. Open a pull request
 
-## License
+---
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+## 📜 License
+Licensed under the **MIT License**. See `LICENSE.md`.
 
-## Acknowledgments
+---
 
-- YouTube Music for the music content
-- yt-dlp for YouTube audio extraction
-- yt-search for YouTube search functionality
-- Vite for the build tool
-- Tailwind CSS for styling
-- Framer Motion for animations
+## 🙏 Acknowledgments
+- YouTube Music
+- yt-dlp
+- yt-search
+- Vite
+- Tailwind CSS
+- Framer Motion
+
