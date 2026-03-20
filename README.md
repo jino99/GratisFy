@@ -1,13 +1,6 @@
 
 # Gratisfy
 
-![GitHub stars](https://img.shields.io/github/stars/jino99/gratisfy?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/jino99/gratisfy?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/jino99/gratisfy?style=for-the-badge)
-![GitHub license](https://img.shields.io/github/license/jino99/gratisfy?style=for-the-badge)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)
-
-## Tech Badges
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=for-the-badge)
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=for-the-badge)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff&style=for-the-badge)
