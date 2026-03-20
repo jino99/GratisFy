@@ -5,6 +5,16 @@
 ![GitHub forks](https://img.shields.io/github/forks/jino99/gratisfy?style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues/jino99/gratisfy?style=for-the-badge)
 ![GitHub license](https://img.shields.io/github/license/jino99/gratisfy?style=for-the-badge)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)
+
+## Tech Badges
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=for-the-badge)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=for-the-badge)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff&style=for-the-badge)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwindcss&logoColor=fff&style=for-the-badge)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=fff&style=for-the-badge)
+![Zustand](https://img.shields.io/badge/Zustand-000000?logo=react&style=for-the-badge)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?logo=framer&logoColor=fff&style=for-the-badge)
 
 A sleek, **cyber-noir inspired YouTube Music player** built with **React, Vite, and Tailwind CSS**.
 
@@ -35,14 +45,13 @@ A sleek, **cyber-noir inspired YouTube Music player** built with **React, Vite, 
 - yt-dlp
 
 ### **Other**
-- State management: Zustand (with persistence)
-- Audio: HTML5 Audio API + range requests
-- Icons: Lucide React
+- Zustand (persistent state)
+- HTML5 Audio API
+- Lucide React icons
 
 ---
 
 ## 🛠️ Getting Started
-
 ### **Prerequisites**
 - Node.js **v16+**
 - npm or yarn
@@ -54,7 +63,7 @@ cd gratisfy
 npm install
 ```
 
-### **Run Development Server**
+### **Start Dev Server**
 ```bash
 npm run dev
 ```
@@ -63,11 +72,10 @@ Open: **http://localhost:5173**
 ---
 
 ## 🎮 Usage
-- **Search Music** – Use the search bar to find YouTube Music tracks
-- **Play Tracks** – Click any result to start playback
-- **Save to Library** – Build your personal music collection
-- **Queue Tracks** – Create on-the-fly playlists
-- **Use Advanced Controls** – Shuffle, repeat, seek, adjust volume
+- Search and play tracks
+- Save favorites into your library
+- Queue songs to build custom playlists
+- Use shuffle / repeat / seeking
 
 ---
 
@@ -75,49 +83,35 @@ Open: **http://localhost:5173**
 ```
 gratisfy/
 ├── src/
-│   ├── App.jsx          # Main application component
-│   ├── main.jsx         # Entry point
-│   └── assets/          # Static assets
-├── public/              # Public files
-├── bin/                 # yt-dlp binary
-├── vite.config.js       # Vite config + middleware
-├── package.json         # Dependencies & scripts
-└── README.md            # This file
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── assets/
+├── public/
+├── bin/
+├── vite.config.js
+├── package.json
+└── README.md
 ```
 
 ---
 
-## 🔧 Configuration
-The app uses **yt-dlp** (bundled in `/bin/`) to stream high‑quality audio from YouTube.
-
----
-
-## 📡 API Endpoints
+## 📡 API
 ```
-GET /api/ytm/search?q=<query>     # Search YouTube Music
-GET /api/ytm/stream?videoId=<id>  # Stream audio
+GET /api/ytm/search?q=<query>
+GET /api/ytm/stream?videoId=<id>
 ```
 
 ---
 
 ## 🤝 Contributing
-1. Fork the repo
-2. Create a feature branch
-3. Commit your changes
-4. Open a pull request
+Fork → Branch → Commit → PR
 
 ---
 
 ## 📜 License
-Licensed under the **MIT License**. See `LICENSE.md`.
+MIT License
 
 ---
 
 ## 🙏 Acknowledgments
-- YouTube Music
-- yt-dlp
-- yt-search
-- Vite
-- Tailwind CSS
-- Framer Motion
-
+YouTube Music • yt-dlp • yt-search • Vite • TailwindCSS • Framer Motion
